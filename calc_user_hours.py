@@ -1,6 +1,6 @@
-#inhrs = raw_input("Enter Hours:")
-#hrs = float(inhrs)
-hrs = float(80)
+inhrs = raw_input("Enter Hours:")
+hrs = float(inhrs)
+#hrs = float(80)
 
 if hrs > 40:
     calc_hrs = 40 * 10.50
