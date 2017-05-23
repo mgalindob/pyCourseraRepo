@@ -1,1 +1,1 @@
-print "hello world git test"
+print "hello world"
