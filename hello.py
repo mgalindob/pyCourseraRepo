@@ -1,2 +1,2 @@
 #Add comment to python
-print "Hi I'm Martin"
+print ("Hi I'm Martin")
