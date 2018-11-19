@@ -1,6 +1,7 @@
-fname = raw_input("Enter file name: ")
-fname = "Data/" + fname
+fname = input('Enter file name: ')
+fname = 'Data/' + fname
 fh = open(fname)
+
 lst = list()
 for line in fh:
     line = line.rstrip()
@@ -9,4 +10,4 @@ for line in fh:
         if i not in lst:
             lst.append(i)
 lst.sort()
-print lst
+print (lst)

@@ -1,10 +1,10 @@
-fname = raw_input("Enter file:")
+fname = input("Enter file:")
 fname = "Data/" + fname
 
 try:
     handle = open(fname)
 except:
-    print 'File cannot be opened:', fname
+    print ('File cannot be opened:', fname)
     exit()
 
 senders = dict()
@@ -25,9 +25,4 @@ lst = senders.keys()
 lst.sort()
 
 for key in lst:
-    print key, senders[key]
-
-
-
-
-
+    print (key, senders[key])

@@ -15,7 +15,7 @@ def computepay(inhrs, inrt):
         return tot_hrs
 
 
-input_hrs = raw_input("Enter Hours:")
+input_hrs = input("Enter Hours:")
 pay = computepay(input_hrs, "10.50")
 
-print pay
+print (pay)

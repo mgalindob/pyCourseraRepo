@@ -1,5 +1,5 @@
-hrs = raw_input("Enter Hours:")
-rate = raw_input("Enter Rate:")
+hrs = input("Enter Hours:")
+rate = input("Enter Rate:")
 grosspay = int(hrs) * float(rate)
 
-print grosspay
+print (grosspay)

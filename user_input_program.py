@@ -1,2 +1,2 @@
-name = raw_input("Type your name")
-print 'Hi', name
+name = input("Type your name")
+print ('Hi', name)

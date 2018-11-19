@@ -1,5 +1,5 @@
     # Use the file name mbox-short.txt as the file name
-fname = raw_input("Enter file name: ")
+fname = input("Enter file name: ")
 fname = "Data/" + fname
 count = 0
 totalSpam = 0
@@ -13,4 +13,4 @@ for line in fh:
     totalSpam = totalSpam + spamValue
 
 averageSpam = totalSpam / count
-print 'Average spam confidence:',averageSpam
+print ('Average spam confidence:',averageSpam)

@@ -1,10 +1,10 @@
-fname = raw_input("Enter file:")
+fname = input("Enter file:")
 fname = "Data/" + fname
 
 try:
     handle = open(fname)
 except:
-    print 'File cannot be opened:', fname
+    print ('File cannot be opened:', fname)
     exit()
 
 senders = dict()
@@ -29,4 +29,4 @@ for key in senders:
             pcommitter = key
             pcommitterval = value
 
-print pcommitter, pcommitterval
+print (pcommitter, pcommitterval)
